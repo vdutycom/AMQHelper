@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "activemqconnect",
+      "type": "com.vduty.AMQHelper.config.AMQConnectConfig",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "activemqconnect.brokername",
+      "type": "java.lang.String",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.jmsport",
+      "type": "java.lang.Integer",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.jmxdomain",
+      "type": "java.lang.String",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.log",
+      "type": "org.apache.commons.logging.Log",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.path",
+      "type": "java.lang.String",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqconnect.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.vduty.AMQHelper.config.AMQConnectConfig"
+    },
+    {
+      "name": "activemqjms",
+      "type": "java.lang.String",
+      "description": "A description for 'activemqjms'"
+    }
+  ],
+  "hints": []
+}

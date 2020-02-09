@@ -1,0 +1,21 @@
+server:
+  port: 8001
+
+
+spring:
+  activemq:
+    user: admin
+    password: admin
+    pool:
+      enabled: false
+    broker-url: tcp://localhost:61616 
+#********* 远程连接配置 ***************     
+activemqconnect:
+  port: 11099
+  path: /jmxrmi
+  jmxdomain: org.apache.activemq
+  ip: 127.0.0.1
+  brokername: localhost 
+  jmsport: 61616   
+
+     
